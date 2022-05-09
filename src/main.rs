@@ -180,7 +180,7 @@ struct Key {
 fn md_link_format<P: AsRef<Path>>(path: P) -> String {
     let path = path.as_ref();
     let file_name = path.file_name().unwrap().to_str().unwrap();
-    let str_path = path.to_str().unwrap();
+    let str_path = path.to_str().unwrap().replace('\\', "/");
     format!("[{file_name}]({str_path})")
 }
 
