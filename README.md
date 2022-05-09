@@ -29,6 +29,7 @@ Run `cargo run`.
 | Invert Binary Tree | Medium | [invert_binary_tree.cc](./AlgoExpert/cpp/invert_binary_tree.cc) |  |
 | Monotonic Array | Medium | [monotonic_array.cc](./AlgoExpert/cpp/monotonic_array.cc) |  |
 | Move Element To End | Medium | [move_element_to_end.cc](./AlgoExpert/cpp/move_element_to_end.cc) |  |
+| River Sizes | Medium |  | [river_sizes.py](./AlgoExpert/python/river_sizes.py) |
 | Smallest Difference | Medium | [smallest_difference.cc](./AlgoExpert/cpp/smallest_difference.cc) |  |
 | Spiral Traverse | Medium | [spiral_traverse.cc](./AlgoExpert/cpp/spiral_traverse.cc) |  |
 | Validate Bst | Medium | [validate_bst.cc](./AlgoExpert/cpp/validate_bst.cc) |  |
