@@ -15,12 +15,17 @@ Run `cargo run`.
 
 | Problem Name | Difficulty | C++ | Python |
 | --- | --- | --- | --- |
+| Branch Sums | Easy |  | [branch_sums.py](./AlgoExpert/python/branch_sums.py) |
+| Class Photos | Easy | [class_photos.cc](./AlgoExpert/cpp/class_photos.cc) | [class_photos.py](./AlgoExpert/python/class_photos.py) |
+| Palindrome Check | Easy | [palindrome_check.cc](./AlgoExpert/cpp/palindrome_check.cc) | [palindrome_check.py](./AlgoExpert/python/palindrome_check.py) |
 | Tournament Winner | Easy | [tournament_winner.cc](./AlgoExpert/cpp/tournament_winner.cc) |  |
 | Two Number Sum | Easy | [two_number_sum.cc](./AlgoExpert/cpp/two_number_sum.cc) | [two_number_sum.py](./AlgoExpert/python/two_number_sum.py) |
 | Validate Subsequence | Easy | [validate_subsequence.cc](./AlgoExpert/cpp/validate_subsequence.cc) |  |
 | Binary Tree Diameter | Medium | [binary_tree_diameter.cc](./AlgoExpert/cpp/binary_tree_diameter.cc) |  |
 | Find Kth Largest Value In Bst | Medium | [find_kth_largest_value_in_bst.cc](./AlgoExpert/cpp/find_kth_largest_value_in_bst.cc) |  |
 | Group Anagrams | Medium | [group_anagrams.cc](./AlgoExpert/cpp/group_anagrams.cc) |  |
+| Height Balanced Binary Tree | Medium | [height_balanced_binary_tree.cc](./AlgoExpert/cpp/height_balanced_binary_tree.cc) |  |
+| Invert Binary Tree | Medium | [invert_binary_tree.cc](./AlgoExpert/cpp/invert_binary_tree.cc) |  |
 | Monotonic Array | Medium | [monotonic_array.cc](./AlgoExpert/cpp/monotonic_array.cc) |  |
 | Move Element To End | Medium | [move_element_to_end.cc](./AlgoExpert/cpp/move_element_to_end.cc) |  |
 | Smallest Difference | Medium | [smallest_difference.cc](./AlgoExpert/cpp/smallest_difference.cc) |  |
