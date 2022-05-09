@@ -17,6 +17,7 @@ Run `cargo run`.
 | --- | --- | --- | --- |
 | Branch Sums | Easy |  | [branch_sums.py](./AlgoExpert/python/branch_sums.py) |
 | Class Photos | Easy | [class_photos.cc](./AlgoExpert/cpp/class_photos.cc) | [class_photos.py](./AlgoExpert/python/class_photos.py) |
+| Generate Document | Easy | [generate_document.cc](./AlgoExpert/cpp/generate_document.cc) | [generate_document.py](./AlgoExpert/python/generate_document.py) |
 | Palindrome Check | Easy | [palindrome_check.cc](./AlgoExpert/cpp/palindrome_check.cc) | [palindrome_check.py](./AlgoExpert/python/palindrome_check.py) |
 | Tournament Winner | Easy | [tournament_winner.cc](./AlgoExpert/cpp/tournament_winner.cc) |  |
 | Two Number Sum | Easy | [two_number_sum.cc](./AlgoExpert/cpp/two_number_sum.cc) | [two_number_sum.py](./AlgoExpert/python/two_number_sum.py) |
