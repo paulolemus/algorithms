@@ -2,8 +2,12 @@
 Difficulty: Easy
 """
 
+from typing import List
 
-def tandemBicycle(redShirtSpeeds, blueShirtSpeeds, fastest):
+
+def tandemBicycle(
+    redShirtSpeeds: List[int], blueShirtSpeeds: List[int], fastest: bool
+) -> int:
     # Write your code here.
     redShirtSpeeds.sort()
     if fastest:

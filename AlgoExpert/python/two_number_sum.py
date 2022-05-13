@@ -2,8 +2,10 @@
 Difficulty: Easy
 """
 
+from typing import List
 
-def twoNumberSum(array, targetSum):
+
+def twoNumberSum(array: List[int], targetSum: int) -> List[int]:
     # Write your code here.
     pairs = set()
 

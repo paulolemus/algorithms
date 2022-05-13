@@ -2,6 +2,8 @@
 Difficulty: Easy
 """
 
+from typing import List, Optional
+
 # This is the class of the input root. Do not edit it.
 class BinaryTree:
     def __init__(self, value):
@@ -10,7 +12,7 @@ class BinaryTree:
         self.right = None
 
 
-def dfs(node, total: int, sums: list):
+def dfs(node: Optional[BinaryTree], total: int, sums: list):
     if not node:
         return
 
@@ -23,7 +25,7 @@ def dfs(node, total: int, sums: list):
     dfs(node.right, new_total, sums)
 
 
-def branchSums(root):
+def branchSums(root: Optional[BinaryTree]) -> List[int]:
     # Write your code here.
     sums = []
     dfs(root, 0, sums)

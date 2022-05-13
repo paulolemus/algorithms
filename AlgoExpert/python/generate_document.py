@@ -5,7 +5,7 @@ Difficulty: Easy
 from collections import Counter
 
 
-def generateDocument(characters, document):
+def generateDocument(characters: str, document: str) -> bool:
     # Write your code here.
     chars_count = Counter(characters)
     document_count = Counter(document)

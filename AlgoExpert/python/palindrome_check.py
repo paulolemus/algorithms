@@ -3,7 +3,7 @@ Difficulty: Easy
 """
 
 
-def isPalindrome(string):
+def isPalindrome(string: str) -> bool:
     # Write your code here.
     if len(string) <= 1:
         return True

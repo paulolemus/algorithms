@@ -2,8 +2,10 @@
 Difficulty: Easy
 """
 
+from typing import List
 
-def classPhotos(redShirtHeights, blueShirtHeights):
+
+def classPhotos(redShirtHeights: List[int], blueShirtHeights: List[int]) -> bool:
     # Write your code here.
     redShirtHeights.sort()
     blueShirtHeights.sort()

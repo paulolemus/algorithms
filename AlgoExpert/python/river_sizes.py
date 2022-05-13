@@ -3,6 +3,7 @@ Difficulty: Medium
 """
 
 from dataclasses import dataclass
+from typing import List
 
 _LAND = 0
 _RIVER = 1
@@ -14,7 +15,7 @@ class Pos:
     c: int  # Column
 
 
-def adjacentPos(pos: Pos, rows: int, cols: int):
+def adjacentPos(pos: Pos, rows: int, cols: int) -> List[Pos]:
     """Returns all adjacent Pos of the given pos.
     Returned Pos are guaranteed to be within bounds, on either land or river.
     """
@@ -29,7 +30,7 @@ def adjacentPos(pos: Pos, rows: int, cols: int):
     return adj
 
 
-def flood(pos: Pos, matrix) -> int:
+def flood(pos: Pos, matrix: List[List[int]]) -> int:
     """Returns the size of the river that includes pos.
     Args:
             pos - position in matrix that contains a river.
@@ -54,7 +55,7 @@ def flood(pos: Pos, matrix) -> int:
     return river_size
 
 
-def riverSizes(matrix):
+def riverSizes(matrix: List[List[int]]) -> List[int]:
     # Write your code here.
     # Guard empty grid.
     if len(matrix) == 0 or len(matrix[0]) == 0:

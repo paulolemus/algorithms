@@ -16,11 +16,11 @@ Run `cargo run`.
 ### Difficulties
 
 - Easy: 13
-- Medium: 12
+- Medium: 14
 - Hard: 0
 - Very Hard: 1
 
-Total: 26
+Total: 28
 
 | Problem Name | Difficulty | C++ | Python |
 | --- | --- | --- | --- |
@@ -45,8 +45,10 @@ Total: 26
 | Merge Overlapping Intervals | Medium | [merge_overlapping_intervals.cc](./AlgoExpert/cpp/merge_overlapping_intervals.cc) |  |
 | Monotonic Array | Medium | [monotonic_array.cc](./AlgoExpert/cpp/monotonic_array.cc) |  |
 | Move Element To End | Medium | [move_element_to_end.cc](./AlgoExpert/cpp/move_element_to_end.cc) |  |
+| Next Greater Element | Medium | [next_greater_element.cc](./AlgoExpert/cpp/next_greater_element.cc) |  |
 | River Sizes | Medium |  | [river_sizes.py](./AlgoExpert/python/river_sizes.py) |
 | Smallest Difference | Medium | [smallest_difference.cc](./AlgoExpert/cpp/smallest_difference.cc) |  |
 | Spiral Traverse | Medium | [spiral_traverse.cc](./AlgoExpert/cpp/spiral_traverse.cc) |  |
+| Staircase Traversal | Medium | [staircase_traversal.cc](./AlgoExpert/cpp/staircase_traversal.cc) |  |
 | Validate Bst | Medium | [validate_bst.cc](./AlgoExpert/cpp/validate_bst.cc) |  |
 | Node Swap | Very Hard |  | [node_swap.py](./AlgoExpert/python/node_swap.py) |

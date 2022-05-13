@@ -2,8 +2,10 @@
 Difficulty: Easy
 """
 
+from typing import List
+
 # O(nlogn + n) time, O(1) space
-def minimumWaitingTime(queries):
+def minimumWaitingTime(queries: List[int]) -> int:
     # Write your code here.
     if len(queries) == 1:
         return 0
