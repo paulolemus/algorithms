@@ -127,7 +127,7 @@ fn capitalize_first(s: &str) -> String {
 }
 
 /// Correctly format the name of a problem.
-fn parse_problem_name(file_name: &str) -> String {
+fn format_problem_name(file_name: &str) -> String {
     let file_name = file_name.trim();
     let name_parts = file_name.split('_');
 
@@ -156,9 +156,9 @@ fn parse_difficulty_from_path<P: AsRef<Path>>(path: P) -> Option<Difficulty> {
 /// Given the path of a problem file, return a `Problem`.
 fn parse_problem_from_path<P: AsRef<Path>>(path: P) -> Option<Problem> {
     let path = path.as_ref();
-    let file_name = path.file_stem().unwrap().to_str().unwrap();
-    let extension = path.extension().unwrap().to_str().unwrap();
-    let name = parse_problem_name(file_name);
+    let file_name = path.file_stem()?.to_str()?;
+    let extension = path.extension()?.to_str()?;
+    let name = format_problem_name(file_name);
     let difficulty = parse_difficulty_from_path(path)?;
     let language = Language::from_extension(extension)?;
 
@@ -168,6 +168,18 @@ fn parse_problem_from_path<P: AsRef<Path>>(path: P) -> Option<Problem> {
         language,
         file_path: path.to_owned(),
     })
+}
+
+/// Returns mapping of difficulty to the number of problems solved with that difficulty.
+fn count_difficulties_solved(
+    table: &BTreeMap<Key, HashMap<Language, PathBuf>>,
+) -> HashMap<Difficulty, i32> {
+    let mut counts = HashMap::new();
+    for key in table.keys() {
+        *counts.entry(key.difficulty).or_default() += 1;
+    }
+
+    counts
 }
 
 #[derive(Debug, PartialEq, Eq, PartialOrd, Ord)]
@@ -206,6 +218,23 @@ fn header_rows_to_string(header: &[String], rows: &[Vec<String>]) -> String {
         out.push_str(&row.join(" | "));
         out.push_str(" |\n");
     }
+
+    out
+}
+
+/// Generates markdown bulletpoint section with information about difficulties solved.
+fn format_difficulties_solved(difficulties_solved: &HashMap<Difficulty, i32>) -> String {
+    use Difficulty::*;
+    let mut out = String::from("### Difficulties\n\n");
+
+    let difficulties = [Easy, Medium, Hard, VeryHard];
+    for difficulty in difficulties {
+        let count = difficulties_solved.get(&difficulty).copied().unwrap_or(0);
+        out.push_str(&format!("- {}: {count}\n", difficulty.to_string()));
+    }
+
+    let total: i32 = difficulties_solved.values().sum();
+    out.push_str(&format!("\nTotal: {total}\n\n"));
 
     out
 }
@@ -259,9 +288,9 @@ fn main() {
 
     let mut rows: Vec<Vec<String>> = Vec::new();
 
-    for (key, language_paths) in table {
+    for (key, language_paths) in &table {
         let mut curr_row: Vec<String> = Vec::new();
-        curr_row.push(key.name);
+        curr_row.push(key.name.clone());
         curr_row.push(key.difficulty.to_string());
 
         for lang in &languages {
@@ -276,10 +305,14 @@ fn main() {
     let markdown_table = header_rows_to_string(&header, &rows);
     println!("Markdown Table:\n{markdown_table}");
 
+    // Get data on number of solved problems per difficulty.
+    let difficulty_counts = count_difficulties_solved(&table);
+    let difficulties_solved = format_difficulties_solved(&difficulty_counts);
+
     // Generate output README.md file.
     let readme_base = fs::read_to_string(readme_base_file).unwrap();
     let subsection_header = "## Solved Problems\n\n";
-    let readme = format!("{readme_base}\n{subsection_header}{markdown_table}");
+    let readme = format!("{readme_base}\n{subsection_header}{difficulties_solved}{markdown_table}");
 
     fs::write(readme_file, readme).unwrap();
 }
@@ -312,7 +345,7 @@ mod tests {
             ("parse_binary_tree", "Parse Binary Tree"),
         ];
         for (input_str, expected) in expectations {
-            assert_eq!(parse_problem_name(input_str), expected);
+            assert_eq!(format_problem_name(input_str), expected);
         }
     }
 }
