@@ -16,11 +16,11 @@ Run `cargo run`.
 ### Difficulties
 
 - Easy: 13
-- Medium: 14
+- Medium: 19
 - Hard: 0
 - Very Hard: 1
 
-Total: 28
+Total: 33
 
 | Problem Name | Difficulty | C++ | Python |
 | --- | --- | --- | --- |
@@ -37,12 +37,14 @@ Total: 28
 | Tournament Winner | Easy | [tournament_winner.cc](./AlgoExpert/cpp/tournament_winner.cc) |  |
 | Two Number Sum | Easy | [two_number_sum.cc](./AlgoExpert/cpp/two_number_sum.cc) | [two_number_sum.py](./AlgoExpert/python/two_number_sum.py) |
 | Validate Subsequence | Easy | [validate_subsequence.cc](./AlgoExpert/cpp/validate_subsequence.cc) |  |
+| Balanced Brackets | Medium | [balanced_brackets.cc](./AlgoExpert/cpp/balanced_brackets.cc) |  |
 | Binary Tree Diameter | Medium | [binary_tree_diameter.cc](./AlgoExpert/cpp/binary_tree_diameter.cc) |  |
 | Find Kth Largest Value In Bst | Medium | [find_kth_largest_value_in_bst.cc](./AlgoExpert/cpp/find_kth_largest_value_in_bst.cc) |  |
 | Group Anagrams | Medium | [group_anagrams.cc](./AlgoExpert/cpp/group_anagrams.cc) |  |
 | Height Balanced Binary Tree | Medium | [height_balanced_binary_tree.cc](./AlgoExpert/cpp/height_balanced_binary_tree.cc) |  |
 | Invert Binary Tree | Medium | [invert_binary_tree.cc](./AlgoExpert/cpp/invert_binary_tree.cc) |  |
 | Merge Overlapping Intervals | Medium | [merge_overlapping_intervals.cc](./AlgoExpert/cpp/merge_overlapping_intervals.cc) |  |
+| Minimum Characters For Words | Medium | [minimum_characters_for_words.cc](./AlgoExpert/cpp/minimum_characters_for_words.cc) |  |
 | Monotonic Array | Medium | [monotonic_array.cc](./AlgoExpert/cpp/monotonic_array.cc) |  |
 | Move Element To End | Medium | [move_element_to_end.cc](./AlgoExpert/cpp/move_element_to_end.cc) |  |
 | Next Greater Element | Medium | [next_greater_element.cc](./AlgoExpert/cpp/next_greater_element.cc) |  |
@@ -50,5 +52,8 @@ Total: 28
 | Smallest Difference | Medium | [smallest_difference.cc](./AlgoExpert/cpp/smallest_difference.cc) |  |
 | Spiral Traverse | Medium | [spiral_traverse.cc](./AlgoExpert/cpp/spiral_traverse.cc) |  |
 | Staircase Traversal | Medium | [staircase_traversal.cc](./AlgoExpert/cpp/staircase_traversal.cc) |  |
+| Sunset Views | Medium | [sunset_views.cc](./AlgoExpert/cpp/sunset_views.cc) |  |
+| Task Assignment | Medium | [task_assignment.cc](./AlgoExpert/cpp/task_assignment.cc) | [task_assignment.py](./AlgoExpert/python/task_assignment.py) |
+| Three Number Sort | Medium | [three_number_sort.cc](./AlgoExpert/cpp/three_number_sort.cc) |  |
 | Validate Bst | Medium | [validate_bst.cc](./AlgoExpert/cpp/validate_bst.cc) |  |
 | Node Swap | Very Hard |  | [node_swap.py](./AlgoExpert/python/node_swap.py) |
