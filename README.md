@@ -13,19 +13,19 @@ Run `cargo run`.
 
 ## General Info
 ### Unique Problems Solved By Difficulty
-* Easy: 24
+* Easy: 32
 * Medium: 23
 * Hard: 0
 * Very Hard: 1
 
-Total: 48
+Total: 56
 
 ### Problems Solved By Language
-* C++: 42
-* Rust: 4
+* C++: 44
+* Rust: 12
 * Python: 12
 
-Total: 58
+Total: 68
 
 
 ## AlgoExpert
@@ -93,22 +93,31 @@ Total: 54
 
 ## LeetCode
 ### Unique Problems Solved By Difficulty
-* Easy: 4
+* Easy: 12
 * Medium: 0
 * Hard: 0
 * Very Hard: 0
 
-Total: 4
+Total: 12
 
 ### Problems Solved By Language
-* Rust: 4
+* C++: 2
+* Rust: 12
 
-Total: 4
+Total: 14
 
 
-| Problem Name | Difficulty | Rust |
-| --- | --- | --- |
-| 1732 Find The Highest Altitude | Easy | [1732_find_the_highest_altitude.rs](./LeetCode/rust/1732_find_the_highest_altitude.rs) |
-| 1748 Sum Of Unique Elements | Easy | [1748_sum_of_unique_elements.rs](./LeetCode/rust/1748_sum_of_unique_elements.rs) |
-| 495 Teemo Attacking | Easy | [495_teemo_attacking.rs](./LeetCode/rust/495_teemo_attacking.rs) |
-| 997 Find The Town Judge | Easy | [997_find_the_town_judge.rs](./LeetCode/rust/997_find_the_town_judge.rs) |
+| Problem Name | Difficulty | C++ | Rust |
+| --- | --- | --- | --- |
+| 1 Two Sum | Easy |  | [1_two_sum.rs](./LeetCode/rust/1_two_sum.rs) |
+| 1732 Find The Highest Altitude | Easy |  | [1732_find_the_highest_altitude.rs](./LeetCode/rust/1732_find_the_highest_altitude.rs) |
+| 1748 Sum Of Unique Elements | Easy |  | [1748_sum_of_unique_elements.rs](./LeetCode/rust/1748_sum_of_unique_elements.rs) |
+| 217 Contains Duplicate | Easy | [217_contains_duplicate.cc](./LeetCode/cpp/217_contains_duplicate.cc) | [217_contains_duplicate.rs](./LeetCode/rust/217_contains_duplicate.rs) |
+| 219 Contains Duplicate II | Easy | [219_contains_duplicate_II.cc](./LeetCode/cpp/219_contains_duplicate_II.cc) | [219_contains_duplicate_II.rs](./LeetCode/rust/219_contains_duplicate_II.rs) |
+| 226 Invert Binary Tree | Easy |  | [226_invert_binary_tree.rs](./LeetCode/rust/226_invert_binary_tree.rs) |
+| 228 Summary Ranges | Easy |  | [228_summary_ranges.rs](./LeetCode/rust/228_summary_ranges.rs) |
+| 268 Missing Number | Easy |  | [268_missing_number.rs](./LeetCode/rust/268_missing_number.rs) |
+| 495 Teemo Attacking | Easy |  | [495_teemo_attacking.rs](./LeetCode/rust/495_teemo_attacking.rs) |
+| 944 Delete Columns To Make Sorted | Easy |  | [944_delete_columns_to_make_sorted.rs](./LeetCode/rust/944_delete_columns_to_make_sorted.rs) |
+| 953 Verifying An Alien Dictionary | Easy |  | [953_verifying_an_alien_dictionary.rs](./LeetCode/rust/953_verifying_an_alien_dictionary.rs) |
+| 997 Find The Town Judge | Easy |  | [997_find_the_town_judge.rs](./LeetCode/rust/997_find_the_town_judge.rs) |
