@@ -263,9 +263,9 @@ fn count_languages_solved(problems: &[Problem]) -> BTreeMap<Language, usize> {
 /// Returns a path formatted as a markdown link.
 fn format_md_link<P: AsRef<Path>>(path: P) -> String {
     let path = path.as_ref();
-    let file_name = path.file_name().unwrap().to_str().unwrap();
+    let extension = path.extension().unwrap().to_str().unwrap();
     let str_path = path.to_str().unwrap().replace('\\', "/");
-    format!("[{file_name}]({str_path})")
+    format!("[.{extension}]({str_path})")
 }
 
 /// Convert a header and rows of a table to a markdown table.

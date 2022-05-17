@@ -46,50 +46,50 @@ Total: 54
 
 | Problem Name | Difficulty | C++ | Python |
 | --- | --- | --- | --- |
-| Binary Search | Easy | [binary_search.cc](./AlgoExpert/cpp/binary_search.cc) |  |
-| Branch Sums | Easy | [branch_sums.cc](./AlgoExpert/cpp/branch_sums.cc) | [branch_sums.py](./AlgoExpert/python/branch_sums.py) |
-| Caesar Cipher Encryptor | Easy | [caesar_cipher_encryptor.cc](./AlgoExpert/cpp/caesar_cipher_encryptor.cc) |  |
-| Class Photos | Easy | [class_photos.cc](./AlgoExpert/cpp/class_photos.cc) | [class_photos.py](./AlgoExpert/python/class_photos.py) |
-| Depth First Search | Easy | [depth_first_search.cc](./AlgoExpert/cpp/depth_first_search.cc) |  |
-| Find Closest Value In Bst | Easy | [find_closest_value_in_bst.cc](./AlgoExpert/cpp/find_closest_value_in_bst.cc) |  |
-| Find Three Largest Numbers | Easy | [find_three_largest_numbers.cc](./AlgoExpert/cpp/find_three_largest_numbers.cc) | [find_three_largest_numbers.py](./AlgoExpert/python/find_three_largest_numbers.py) |
-| First Non Repeating Character | Easy | [first_non_repeating_character.cc](./AlgoExpert/cpp/first_non_repeating_character.cc) |  |
-| Generate Document | Easy | [generate_document.cc](./AlgoExpert/cpp/generate_document.cc) | [generate_document.py](./AlgoExpert/python/generate_document.py) |
-| Insertion Sort | Easy | [insertion_sort.cc](./AlgoExpert/cpp/insertion_sort.cc) |  |
-| Minimum Waiting Time | Easy | [minimum_waiting_time.cc](./AlgoExpert/cpp/minimum_waiting_time.cc) | [minimum_waiting_time.py](./AlgoExpert/python/minimum_waiting_time.py) |
-| Node Depths | Easy | [node_depths.cc](./AlgoExpert/cpp/node_depths.cc) |  |
-| Palindrome Check | Easy | [palindrome_check.cc](./AlgoExpert/cpp/palindrome_check.cc) | [palindrome_check.py](./AlgoExpert/python/palindrome_check.py) |
-| Run Length Encoding | Easy | [run_length_encoding.cc](./AlgoExpert/cpp/run_length_encoding.cc) |  |
-| Selection Sort | Easy | [selection_sort.cc](./AlgoExpert/cpp/selection_sort.cc) |  |
-| Sorted Squared Array | Easy | [sorted_squared_array.cc](./AlgoExpert/cpp/sorted_squared_array.cc) |  |
-| Tandem Bicycle | Easy | [tandem_bicycle.cc](./AlgoExpert/cpp/tandem_bicycle.cc) | [tandem_bicycle.py](./AlgoExpert/python/tandem_bicycle.py) |
-| Tournament Winner | Easy | [tournament_winner.cc](./AlgoExpert/cpp/tournament_winner.cc) |  |
-| Two Number Sum | Easy | [two_number_sum.cc](./AlgoExpert/cpp/two_number_sum.cc) | [two_number_sum.py](./AlgoExpert/python/two_number_sum.py) |
-| Validate Subsequence | Easy | [validate_subsequence.cc](./AlgoExpert/cpp/validate_subsequence.cc) |  |
-| Balanced Brackets | Medium | [balanced_brackets.cc](./AlgoExpert/cpp/balanced_brackets.cc) |  |
-| Binary Tree Diameter | Medium | [binary_tree_diameter.cc](./AlgoExpert/cpp/binary_tree_diameter.cc) |  |
-| Find Kth Largest Value In Bst | Medium | [find_kth_largest_value_in_bst.cc](./AlgoExpert/cpp/find_kth_largest_value_in_bst.cc) |  |
-| First Duplicate Value | Medium | [first_duplicate_value.cc](./AlgoExpert/cpp/first_duplicate_value.cc) |  |
-| Group Anagrams | Medium | [group_anagrams.cc](./AlgoExpert/cpp/group_anagrams.cc) |  |
-| Height Balanced Binary Tree | Medium | [height_balanced_binary_tree.cc](./AlgoExpert/cpp/height_balanced_binary_tree.cc) |  |
-| Invert Binary Tree | Medium | [invert_binary_tree.cc](./AlgoExpert/cpp/invert_binary_tree.cc) |  |
-| Max Subset Sum No Adjacent | Medium | [max_subset_sum_no_adjacent.cc](./AlgoExpert/cpp/max_subset_sum_no_adjacent.cc) |  |
-| Merge Overlapping Intervals | Medium | [merge_overlapping_intervals.cc](./AlgoExpert/cpp/merge_overlapping_intervals.cc) |  |
-| Minimum Characters For Words | Medium | [minimum_characters_for_words.cc](./AlgoExpert/cpp/minimum_characters_for_words.cc) |  |
-| Monotonic Array | Medium | [monotonic_array.cc](./AlgoExpert/cpp/monotonic_array.cc) |  |
-| Move Element To End | Medium | [move_element_to_end.cc](./AlgoExpert/cpp/move_element_to_end.cc) |  |
-| Next Greater Element | Medium | [next_greater_element.cc](./AlgoExpert/cpp/next_greater_element.cc) |  |
-| Number Of Ways To Traverse Graph | Medium | [number_of_ways_to_traverse_graph.cc](./AlgoExpert/cpp/number_of_ways_to_traverse_graph.cc) | [number_of_ways_to_traverse_graph.py](./AlgoExpert/python/number_of_ways_to_traverse_graph.py) |
-| River Sizes | Medium |  | [river_sizes.py](./AlgoExpert/python/river_sizes.py) |
-| Single Cycle Check | Medium | [single_cycle_check.cc](./AlgoExpert/cpp/single_cycle_check.cc) |  |
-| Smallest Difference | Medium | [smallest_difference.cc](./AlgoExpert/cpp/smallest_difference.cc) |  |
-| Spiral Traverse | Medium | [spiral_traverse.cc](./AlgoExpert/cpp/spiral_traverse.cc) |  |
-| Staircase Traversal | Medium | [staircase_traversal.cc](./AlgoExpert/cpp/staircase_traversal.cc) |  |
-| Sunset Views | Medium | [sunset_views.cc](./AlgoExpert/cpp/sunset_views.cc) |  |
-| Task Assignment | Medium | [task_assignment.cc](./AlgoExpert/cpp/task_assignment.cc) | [task_assignment.py](./AlgoExpert/python/task_assignment.py) |
-| Three Number Sort | Medium | [three_number_sort.cc](./AlgoExpert/cpp/three_number_sort.cc) |  |
-| Validate Bst | Medium | [validate_bst.cc](./AlgoExpert/cpp/validate_bst.cc) |  |
-| Node Swap | Very Hard |  | [node_swap.py](./AlgoExpert/python/node_swap.py) |
+| Binary Search | Easy | [.cc](./AlgoExpert/cpp/binary_search.cc) |  |
+| Branch Sums | Easy | [.cc](./AlgoExpert/cpp/branch_sums.cc) | [.py](./AlgoExpert/python/branch_sums.py) |
+| Caesar Cipher Encryptor | Easy | [.cc](./AlgoExpert/cpp/caesar_cipher_encryptor.cc) |  |
+| Class Photos | Easy | [.cc](./AlgoExpert/cpp/class_photos.cc) | [.py](./AlgoExpert/python/class_photos.py) |
+| Depth First Search | Easy | [.cc](./AlgoExpert/cpp/depth_first_search.cc) |  |
+| Find Closest Value In Bst | Easy | [.cc](./AlgoExpert/cpp/find_closest_value_in_bst.cc) |  |
+| Find Three Largest Numbers | Easy | [.cc](./AlgoExpert/cpp/find_three_largest_numbers.cc) | [.py](./AlgoExpert/python/find_three_largest_numbers.py) |
+| First Non Repeating Character | Easy | [.cc](./AlgoExpert/cpp/first_non_repeating_character.cc) |  |
+| Generate Document | Easy | [.cc](./AlgoExpert/cpp/generate_document.cc) | [.py](./AlgoExpert/python/generate_document.py) |
+| Insertion Sort | Easy | [.cc](./AlgoExpert/cpp/insertion_sort.cc) |  |
+| Minimum Waiting Time | Easy | [.cc](./AlgoExpert/cpp/minimum_waiting_time.cc) | [.py](./AlgoExpert/python/minimum_waiting_time.py) |
+| Node Depths | Easy | [.cc](./AlgoExpert/cpp/node_depths.cc) |  |
+| Palindrome Check | Easy | [.cc](./AlgoExpert/cpp/palindrome_check.cc) | [.py](./AlgoExpert/python/palindrome_check.py) |
+| Run Length Encoding | Easy | [.cc](./AlgoExpert/cpp/run_length_encoding.cc) |  |
+| Selection Sort | Easy | [.cc](./AlgoExpert/cpp/selection_sort.cc) |  |
+| Sorted Squared Array | Easy | [.cc](./AlgoExpert/cpp/sorted_squared_array.cc) |  |
+| Tandem Bicycle | Easy | [.cc](./AlgoExpert/cpp/tandem_bicycle.cc) | [.py](./AlgoExpert/python/tandem_bicycle.py) |
+| Tournament Winner | Easy | [.cc](./AlgoExpert/cpp/tournament_winner.cc) |  |
+| Two Number Sum | Easy | [.cc](./AlgoExpert/cpp/two_number_sum.cc) | [.py](./AlgoExpert/python/two_number_sum.py) |
+| Validate Subsequence | Easy | [.cc](./AlgoExpert/cpp/validate_subsequence.cc) |  |
+| Balanced Brackets | Medium | [.cc](./AlgoExpert/cpp/balanced_brackets.cc) |  |
+| Binary Tree Diameter | Medium | [.cc](./AlgoExpert/cpp/binary_tree_diameter.cc) |  |
+| Find Kth Largest Value In Bst | Medium | [.cc](./AlgoExpert/cpp/find_kth_largest_value_in_bst.cc) |  |
+| First Duplicate Value | Medium | [.cc](./AlgoExpert/cpp/first_duplicate_value.cc) |  |
+| Group Anagrams | Medium | [.cc](./AlgoExpert/cpp/group_anagrams.cc) |  |
+| Height Balanced Binary Tree | Medium | [.cc](./AlgoExpert/cpp/height_balanced_binary_tree.cc) |  |
+| Invert Binary Tree | Medium | [.cc](./AlgoExpert/cpp/invert_binary_tree.cc) |  |
+| Max Subset Sum No Adjacent | Medium | [.cc](./AlgoExpert/cpp/max_subset_sum_no_adjacent.cc) |  |
+| Merge Overlapping Intervals | Medium | [.cc](./AlgoExpert/cpp/merge_overlapping_intervals.cc) |  |
+| Minimum Characters For Words | Medium | [.cc](./AlgoExpert/cpp/minimum_characters_for_words.cc) |  |
+| Monotonic Array | Medium | [.cc](./AlgoExpert/cpp/monotonic_array.cc) |  |
+| Move Element To End | Medium | [.cc](./AlgoExpert/cpp/move_element_to_end.cc) |  |
+| Next Greater Element | Medium | [.cc](./AlgoExpert/cpp/next_greater_element.cc) |  |
+| Number Of Ways To Traverse Graph | Medium | [.cc](./AlgoExpert/cpp/number_of_ways_to_traverse_graph.cc) | [.py](./AlgoExpert/python/number_of_ways_to_traverse_graph.py) |
+| River Sizes | Medium |  | [.py](./AlgoExpert/python/river_sizes.py) |
+| Single Cycle Check | Medium | [.cc](./AlgoExpert/cpp/single_cycle_check.cc) |  |
+| Smallest Difference | Medium | [.cc](./AlgoExpert/cpp/smallest_difference.cc) |  |
+| Spiral Traverse | Medium | [.cc](./AlgoExpert/cpp/spiral_traverse.cc) |  |
+| Staircase Traversal | Medium | [.cc](./AlgoExpert/cpp/staircase_traversal.cc) |  |
+| Sunset Views | Medium | [.cc](./AlgoExpert/cpp/sunset_views.cc) |  |
+| Task Assignment | Medium | [.cc](./AlgoExpert/cpp/task_assignment.cc) | [.py](./AlgoExpert/python/task_assignment.py) |
+| Three Number Sort | Medium | [.cc](./AlgoExpert/cpp/three_number_sort.cc) |  |
+| Validate Bst | Medium | [.cc](./AlgoExpert/cpp/validate_bst.cc) |  |
+| Node Swap | Very Hard |  | [.py](./AlgoExpert/python/node_swap.py) |
 
 ## LeetCode
 ### Unique Problems Solved By Difficulty
@@ -109,15 +109,15 @@ Total: 14
 
 | Problem Name | Difficulty | C++ | Rust |
 | --- | --- | --- | --- |
-| 1 Two Sum | Easy |  | [1_two_sum.rs](./LeetCode/rust/1_two_sum.rs) |
-| 1732 Find The Highest Altitude | Easy |  | [1732_find_the_highest_altitude.rs](./LeetCode/rust/1732_find_the_highest_altitude.rs) |
-| 1748 Sum Of Unique Elements | Easy |  | [1748_sum_of_unique_elements.rs](./LeetCode/rust/1748_sum_of_unique_elements.rs) |
-| 217 Contains Duplicate | Easy | [217_contains_duplicate.cc](./LeetCode/cpp/217_contains_duplicate.cc) | [217_contains_duplicate.rs](./LeetCode/rust/217_contains_duplicate.rs) |
-| 219 Contains Duplicate II | Easy | [219_contains_duplicate_II.cc](./LeetCode/cpp/219_contains_duplicate_II.cc) | [219_contains_duplicate_II.rs](./LeetCode/rust/219_contains_duplicate_II.rs) |
-| 226 Invert Binary Tree | Easy |  | [226_invert_binary_tree.rs](./LeetCode/rust/226_invert_binary_tree.rs) |
-| 228 Summary Ranges | Easy |  | [228_summary_ranges.rs](./LeetCode/rust/228_summary_ranges.rs) |
-| 268 Missing Number | Easy |  | [268_missing_number.rs](./LeetCode/rust/268_missing_number.rs) |
-| 495 Teemo Attacking | Easy |  | [495_teemo_attacking.rs](./LeetCode/rust/495_teemo_attacking.rs) |
-| 944 Delete Columns To Make Sorted | Easy |  | [944_delete_columns_to_make_sorted.rs](./LeetCode/rust/944_delete_columns_to_make_sorted.rs) |
-| 953 Verifying An Alien Dictionary | Easy |  | [953_verifying_an_alien_dictionary.rs](./LeetCode/rust/953_verifying_an_alien_dictionary.rs) |
-| 997 Find The Town Judge | Easy |  | [997_find_the_town_judge.rs](./LeetCode/rust/997_find_the_town_judge.rs) |
+| 1 Two Sum | Easy |  | [.rs](./LeetCode/rust/1_two_sum.rs) |
+| 1732 Find The Highest Altitude | Easy |  | [.rs](./LeetCode/rust/1732_find_the_highest_altitude.rs) |
+| 1748 Sum Of Unique Elements | Easy |  | [.rs](./LeetCode/rust/1748_sum_of_unique_elements.rs) |
+| 217 Contains Duplicate | Easy | [.cc](./LeetCode/cpp/217_contains_duplicate.cc) | [.rs](./LeetCode/rust/217_contains_duplicate.rs) |
+| 219 Contains Duplicate II | Easy | [.cc](./LeetCode/cpp/219_contains_duplicate_II.cc) | [.rs](./LeetCode/rust/219_contains_duplicate_II.rs) |
+| 226 Invert Binary Tree | Easy |  | [.rs](./LeetCode/rust/226_invert_binary_tree.rs) |
+| 228 Summary Ranges | Easy |  | [.rs](./LeetCode/rust/228_summary_ranges.rs) |
+| 268 Missing Number | Easy |  | [.rs](./LeetCode/rust/268_missing_number.rs) |
+| 495 Teemo Attacking | Easy |  | [.rs](./LeetCode/rust/495_teemo_attacking.rs) |
+| 944 Delete Columns To Make Sorted | Easy |  | [.rs](./LeetCode/rust/944_delete_columns_to_make_sorted.rs) |
+| 953 Verifying An Alien Dictionary | Easy |  | [.rs](./LeetCode/rust/953_verifying_an_alien_dictionary.rs) |
+| 997 Find The Town Judge | Easy |  | [.rs](./LeetCode/rust/997_find_the_town_judge.rs) |
