@@ -14,34 +14,34 @@ Run `cargo run`.
 ## General Info
 ### Unique Problems Solved By Difficulty
 * Easy: 32
-* Medium: 23
-* Hard: 0
+* Medium: 25
+* Hard: 4
 * Very Hard: 1
 
-Total: 56
+Total: 62
 
 ### Problems Solved By Language
-* C++: 44
+* C++: 50
 * Rust: 12
 * Python: 12
 
-Total: 68
+Total: 74
 
 
 ## AlgoExpert
 ### Unique Problems Solved By Difficulty
 * Easy: 20
-* Medium: 23
-* Hard: 0
+* Medium: 25
+* Hard: 4
 * Very Hard: 1
 
-Total: 44
+Total: 50
 
 ### Problems Solved By Language
-* C++: 42
+* C++: 48
 * Python: 12
 
-Total: 54
+Total: 60
 
 
 | Problem Name | Difficulty | C++ | Python |
@@ -66,6 +66,7 @@ Total: 54
 | Tournament Winner | Easy | [.cc](./AlgoExpert/cpp/tournament_winner.cc) |  |
 | Two Number Sum | Easy | [.cc](./AlgoExpert/cpp/two_number_sum.cc) | [.py](./AlgoExpert/python/two_number_sum.py) |
 | Validate Subsequence | Easy | [.cc](./AlgoExpert/cpp/validate_subsequence.cc) |  |
+| BST Traversal | Medium | [.cc](./AlgoExpert/cpp/BST_traversal.cc) |  |
 | Balanced Brackets | Medium | [.cc](./AlgoExpert/cpp/balanced_brackets.cc) |  |
 | Binary Tree Diameter | Medium | [.cc](./AlgoExpert/cpp/binary_tree_diameter.cc) |  |
 | Find Kth Largest Value In Bst | Medium | [.cc](./AlgoExpert/cpp/find_kth_largest_value_in_bst.cc) |  |
@@ -73,6 +74,7 @@ Total: 54
 | Group Anagrams | Medium | [.cc](./AlgoExpert/cpp/group_anagrams.cc) |  |
 | Height Balanced Binary Tree | Medium | [.cc](./AlgoExpert/cpp/height_balanced_binary_tree.cc) |  |
 | Invert Binary Tree | Medium | [.cc](./AlgoExpert/cpp/invert_binary_tree.cc) |  |
+| Longest Peak | Medium | [.cc](./AlgoExpert/cpp/longest_peak.cc) |  |
 | Max Subset Sum No Adjacent | Medium | [.cc](./AlgoExpert/cpp/max_subset_sum_no_adjacent.cc) |  |
 | Merge Overlapping Intervals | Medium | [.cc](./AlgoExpert/cpp/merge_overlapping_intervals.cc) |  |
 | Minimum Characters For Words | Medium | [.cc](./AlgoExpert/cpp/minimum_characters_for_words.cc) |  |
@@ -89,6 +91,10 @@ Total: 54
 | Task Assignment | Medium | [.cc](./AlgoExpert/cpp/task_assignment.cc) | [.py](./AlgoExpert/python/task_assignment.py) |
 | Three Number Sort | Medium | [.cc](./AlgoExpert/cpp/three_number_sort.cc) |  |
 | Validate Bst | Medium | [.cc](./AlgoExpert/cpp/validate_bst.cc) |  |
+| Largest Range | Hard | [.cc](./AlgoExpert/cpp/largest_range.cc) |  |
+| Merge Linked Lists | Hard | [.cc](./AlgoExpert/cpp/merge_linked_lists.cc) |  |
+| Reverse Linked List | Hard | [.cc](./AlgoExpert/cpp/reverse_linked_list.cc) |  |
+| Validate Three Nodes | Hard | [.cc](./AlgoExpert/cpp/validate_three_nodes.cc) |  |
 | Node Swap | Very Hard |  | [.py](./AlgoExpert/python/node_swap.py) |
 
 ## LeetCode
