@@ -14,34 +14,34 @@ Run `cargo run`.
 ## General Info
 ### Unique Problems Solved By Difficulty
 * Easy: 32
-* Medium: 25
+* Medium: 27
 * Hard: 7
 * Very Hard: 1
 
-Total: 65
+Total: 67
 
 ### Problems Solved By Language
-* C++: 53
+* C++: 55
 * Rust: 12
 * Python: 12
 
-Total: 77
+Total: 79
 
 
 ## AlgoExpert
 ### Unique Problems Solved By Difficulty
 * Easy: 20
-* Medium: 25
+* Medium: 27
 * Hard: 7
 * Very Hard: 1
 
-Total: 53
+Total: 55
 
 ### Problems Solved By Language
-* C++: 51
+* C++: 53
 * Python: 12
 
-Total: 63
+Total: 65
 
 
 | Problem Name | Difficulty | C++ | Python |
@@ -74,6 +74,7 @@ Total: 63
 | Group Anagrams | Medium | [.cc](./AlgoExpert/cpp/group_anagrams.cc) |  |
 | Height Balanced Binary Tree | Medium | [.cc](./AlgoExpert/cpp/height_balanced_binary_tree.cc) |  |
 | Invert Binary Tree | Medium | [.cc](./AlgoExpert/cpp/invert_binary_tree.cc) |  |
+| Kadanes Algorithm | Medium | [.cc](./AlgoExpert/cpp/kadanes_algorithm.cc) |  |
 | Longest Peak | Medium | [.cc](./AlgoExpert/cpp/longest_peak.cc) |  |
 | Max Subset Sum No Adjacent | Medium | [.cc](./AlgoExpert/cpp/max_subset_sum_no_adjacent.cc) |  |
 | Merge Overlapping Intervals | Medium | [.cc](./AlgoExpert/cpp/merge_overlapping_intervals.cc) |  |
@@ -82,6 +83,7 @@ Total: 63
 | Move Element To End | Medium | [.cc](./AlgoExpert/cpp/move_element_to_end.cc) |  |
 | Next Greater Element | Medium | [.cc](./AlgoExpert/cpp/next_greater_element.cc) |  |
 | Number Of Ways To Traverse Graph | Medium | [.cc](./AlgoExpert/cpp/number_of_ways_to_traverse_graph.cc) | [.py](./AlgoExpert/python/number_of_ways_to_traverse_graph.py) |
+| Phone Number Mnemonics | Medium | [.cc](./AlgoExpert/cpp/phone_number_mnemonics.cc) |  |
 | River Sizes | Medium |  | [.py](./AlgoExpert/python/river_sizes.py) |
 | Single Cycle Check | Medium | [.cc](./AlgoExpert/cpp/single_cycle_check.cc) |  |
 | Smallest Difference | Medium | [.cc](./AlgoExpert/cpp/smallest_difference.cc) |  |
