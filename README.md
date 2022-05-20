@@ -15,33 +15,33 @@ Run `cargo run`.
 ### Unique Problems Solved By Difficulty
 * Easy: 32
 * Medium: 25
-* Hard: 4
+* Hard: 7
 * Very Hard: 1
 
-Total: 62
+Total: 65
 
 ### Problems Solved By Language
-* C++: 50
+* C++: 53
 * Rust: 12
 * Python: 12
 
-Total: 74
+Total: 77
 
 
 ## AlgoExpert
 ### Unique Problems Solved By Difficulty
 * Easy: 20
 * Medium: 25
-* Hard: 4
+* Hard: 7
 * Very Hard: 1
 
-Total: 50
+Total: 53
 
 ### Problems Solved By Language
-* C++: 48
+* C++: 51
 * Python: 12
 
-Total: 60
+Total: 63
 
 
 | Problem Name | Difficulty | C++ | Python |
@@ -91,9 +91,12 @@ Total: 60
 | Task Assignment | Medium | [.cc](./AlgoExpert/cpp/task_assignment.cc) | [.py](./AlgoExpert/python/task_assignment.py) |
 | Three Number Sort | Medium | [.cc](./AlgoExpert/cpp/three_number_sort.cc) |  |
 | Validate Bst | Medium | [.cc](./AlgoExpert/cpp/validate_bst.cc) |  |
+| Continuous Median | Hard | [.cc](./AlgoExpert/cpp/continuous_median.cc) |  |
 | Largest Range | Hard | [.cc](./AlgoExpert/cpp/largest_range.cc) |  |
 | Merge Linked Lists | Hard | [.cc](./AlgoExpert/cpp/merge_linked_lists.cc) |  |
 | Reverse Linked List | Hard | [.cc](./AlgoExpert/cpp/reverse_linked_list.cc) |  |
+| Search For Range | Hard | [.cc](./AlgoExpert/cpp/search_for_range.cc) |  |
+| Shift Linked List | Hard | [.cc](./AlgoExpert/cpp/shift_linked_list.cc) |  |
 | Validate Three Nodes | Hard | [.cc](./AlgoExpert/cpp/validate_three_nodes.cc) |  |
 | Node Swap | Very Hard |  | [.py](./AlgoExpert/python/node_swap.py) |
 
