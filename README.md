@@ -13,19 +13,19 @@ Run `cargo run`.
 
 ## General Info
 ### Unique Problems Solved By Difficulty
-* Easy: 32
+* Easy: 39
 * Medium: 27
 * Hard: 7
 * Very Hard: 1
 
-Total: 67
+Total: 74
 
 ### Problems Solved By Language
-* C++: 55
-* Rust: 12
+* C++: 62
+* Rust: 16
 * Python: 12
 
-Total: 79
+Total: 90
 
 
 ## AlgoExpert
@@ -104,31 +104,38 @@ Total: 65
 
 ## LeetCode
 ### Unique Problems Solved By Difficulty
-* Easy: 12
+* Easy: 19
 * Medium: 0
 * Hard: 0
 * Very Hard: 0
 
-Total: 12
+Total: 19
 
 ### Problems Solved By Language
-* C++: 2
-* Rust: 12
+* C++: 9
+* Rust: 16
 
-Total: 14
+Total: 25
 
 
 | Problem Name | Difficulty | C++ | Rust |
 | --- | --- | --- | --- |
 | 1 Two Sum | Easy |  | [.rs](./LeetCode/rust/1_two_sum.rs) |
+| 1684 Count The Number Of Consistent Strings | Easy | [.cc](./LeetCode/cpp/1684_count_the_number_of_consistent_strings.cc) | [.rs](./LeetCode/rust/1684_count_the_number_of_consistent_strings.rs) |
 | 1732 Find The Highest Altitude | Easy |  | [.rs](./LeetCode/rust/1732_find_the_highest_altitude.rs) |
 | 1748 Sum Of Unique Elements | Easy |  | [.rs](./LeetCode/rust/1748_sum_of_unique_elements.rs) |
+| 1844 Replace All Digits With Characters | Easy | [.cc](./LeetCode/cpp/1844_replace_all_digits_with_characters.cc) |  |
+| 203 Remove Linked List Elements | Easy | [.cc](./LeetCode/cpp/203_remove_linked_list_elements.cc) |  |
 | 217 Contains Duplicate | Easy | [.cc](./LeetCode/cpp/217_contains_duplicate.cc) | [.rs](./LeetCode/rust/217_contains_duplicate.rs) |
 | 219 Contains Duplicate II | Easy | [.cc](./LeetCode/cpp/219_contains_duplicate_II.cc) | [.rs](./LeetCode/rust/219_contains_duplicate_II.rs) |
 | 226 Invert Binary Tree | Easy |  | [.rs](./LeetCode/rust/226_invert_binary_tree.rs) |
 | 228 Summary Ranges | Easy |  | [.rs](./LeetCode/rust/228_summary_ranges.rs) |
 | 268 Missing Number | Easy |  | [.rs](./LeetCode/rust/268_missing_number.rs) |
 | 495 Teemo Attacking | Easy |  | [.rs](./LeetCode/rust/495_teemo_attacking.rs) |
+| 496 Next Greater Element I | Easy | [.cc](./LeetCode/cpp/496_next_greater_element_I.cc) | [.rs](./LeetCode/rust/496_next_greater_element_I.rs) |
+| 551 Student Attendance Record I | Easy | [.cc](./LeetCode/cpp/551_student_attendance_record_I.cc) | [.rs](./LeetCode/rust/551_student_attendance_record_I.rs) |
+| 599 Minimum Index Sum Of Two Lists | Easy | [.cc](./LeetCode/cpp/599_minimum_index_sum_of_two_lists.cc) | [.rs](./LeetCode/rust/599_minimum_index_sum_of_two_lists.rs) |
+| 876 Middle Of The Linked List | Easy | [.cc](./LeetCode/cpp/876_middle_of_the_linked_list.cc) |  |
 | 944 Delete Columns To Make Sorted | Easy |  | [.rs](./LeetCode/rust/944_delete_columns_to_make_sorted.rs) |
 | 953 Verifying An Alien Dictionary | Easy |  | [.rs](./LeetCode/rust/953_verifying_an_alien_dictionary.rs) |
 | 997 Find The Town Judge | Easy |  | [.rs](./LeetCode/rust/997_find_the_town_judge.rs) |
