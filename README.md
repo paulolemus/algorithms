@@ -13,19 +13,19 @@ Run `cargo run`.
 
 ## General Info
 ### Unique Problems Solved By Difficulty
-* Easy: 41
+* Easy: 43
 * Medium: 29
 * Hard: 9
 * Very Hard: 1
 
-Total: 80
+Total: 82
 
 ### Problems Solved By Language
-* C++: 69
-* Rust: 17
+* C++: 70
+* Rust: 19
 * Python: 12
 
-Total: 98
+Total: 101
 
 
 ## AlgoExpert
@@ -109,27 +109,29 @@ Total: 71
 
 ## LeetCode
 ### Unique Problems Solved By Difficulty
-* Easy: 20
+* Easy: 22
 * Medium: 0
 * Hard: 0
 * Very Hard: 0
 
-Total: 20
+Total: 22
 
 ### Problems Solved By Language
-* C++: 10
-* Rust: 17
+* C++: 11
+* Rust: 19
 
-Total: 27
+Total: 30
 
 
 | Problem Name | Difficulty | C++ | Rust |
 | --- | --- | --- | --- |
 | 1 Two Sum | Easy |  | [.rs](./LeetCode/rust/1_two_sum.rs) |
 | 1684 Count The Number Of Consistent Strings | Easy | [.cc](./LeetCode/cpp/1684_count_the_number_of_consistent_strings.cc) | [.rs](./LeetCode/rust/1684_count_the_number_of_consistent_strings.rs) |
+| 1720 Decode XORed Array | Easy | [.cc](./LeetCode/cpp/1720_decode_XORed_array.cc) | [.rs](./LeetCode/rust/1720_decode_XORed_array.rs) |
 | 1732 Find The Highest Altitude | Easy |  | [.rs](./LeetCode/rust/1732_find_the_highest_altitude.rs) |
 | 1748 Sum Of Unique Elements | Easy |  | [.rs](./LeetCode/rust/1748_sum_of_unique_elements.rs) |
 | 1844 Replace All Digits With Characters | Easy | [.cc](./LeetCode/cpp/1844_replace_all_digits_with_characters.cc) |  |
+| 1876 Substrings Of Size Three With Distinct Characters | Easy |  | [.rs](./LeetCode/rust/1876_substrings_of_size_three_with_distinct_characters.rs) |
 | 203 Remove Linked List Elements | Easy | [.cc](./LeetCode/cpp/203_remove_linked_list_elements.cc) |  |
 | 2124 Check If All As Appears Before All Bs | Easy | [.cc](./LeetCode/cpp/2124_check_if_all_as_appears_before_all_bs.cc) | [.rs](./LeetCode/rust/2124_check_if_all_as_appears_before_all_bs.rs) |
 | 217 Contains Duplicate | Easy | [.cc](./LeetCode/cpp/217_contains_duplicate.cc) | [.rs](./LeetCode/rust/217_contains_duplicate.rs) |
