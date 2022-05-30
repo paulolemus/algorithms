@@ -15,33 +15,33 @@ Run `cargo run`.
 ### Unique Problems Solved By Difficulty
 * Easy: 43
 * Medium: 29
-* Hard: 9
+* Hard: 10
 * Very Hard: 1
 
-Total: 82
+Total: 83
 
 ### Problems Solved By Language
-* C++: 70
+* C++: 71
 * Rust: 19
 * Python: 12
 
-Total: 101
+Total: 102
 
 
 ## AlgoExpert
 ### Unique Problems Solved By Difficulty
 * Easy: 21
 * Medium: 29
-* Hard: 9
+* Hard: 10
 * Very Hard: 1
 
-Total: 60
+Total: 61
 
 ### Problems Solved By Language
-* C++: 59
+* C++: 60
 * Python: 12
 
-Total: 71
+Total: 72
 
 
 | Problem Name | Difficulty | C++ | Python |
@@ -104,6 +104,7 @@ Total: 71
 | Reverse Linked List | Hard | [.cc](./AlgoExpert/cpp/reverse_linked_list.cc) |  |
 | Search For Range | Hard | [.cc](./AlgoExpert/cpp/search_for_range.cc) |  |
 | Shift Linked List | Hard | [.cc](./AlgoExpert/cpp/shift_linked_list.cc) |  |
+| Topological Sort | Hard | [.cc](./AlgoExpert/cpp/topological_sort.cc) |  |
 | Validate Three Nodes | Hard | [.cc](./AlgoExpert/cpp/validate_three_nodes.cc) |  |
 | Node Swap | Very Hard | [.cc](./AlgoExpert/cpp/node_swap.cc) | [.py](./AlgoExpert/python/node_swap.py) |
 
