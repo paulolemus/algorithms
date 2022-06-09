@@ -16,16 +16,16 @@ Run `cargo run`.
 * Easy: 43
 * Medium: 29
 * Hard: 10
-* Very Hard: 1
+* Very Hard: 2
 
-Total: 83
+Total: 84
 
 ### Problems Solved By Language
-* C++: 71
+* C++: 72
 * Rust: 19
 * Python: 12
 
-Total: 102
+Total: 103
 
 
 ## AlgoExpert
@@ -33,15 +33,15 @@ Total: 102
 * Easy: 21
 * Medium: 29
 * Hard: 10
-* Very Hard: 1
+* Very Hard: 2
 
-Total: 61
+Total: 62
 
 ### Problems Solved By Language
-* C++: 60
+* C++: 61
 * Python: 12
 
-Total: 72
+Total: 73
 
 
 | Problem Name | Difficulty | C++ | Python |
@@ -106,6 +106,7 @@ Total: 72
 | Shift Linked List | Hard | [.cc](./AlgoExpert/cpp/shift_linked_list.cc) |  |
 | Topological Sort | Hard | [.cc](./AlgoExpert/cpp/topological_sort.cc) |  |
 | Validate Three Nodes | Hard | [.cc](./AlgoExpert/cpp/validate_three_nodes.cc) |  |
+| Airport Connections | Very Hard | [.cc](./AlgoExpert/cpp/airport_connections.cc) |  |
 | Node Swap | Very Hard | [.cc](./AlgoExpert/cpp/node_swap.cc) | [.py](./AlgoExpert/python/node_swap.py) |
 
 ## LeetCode
