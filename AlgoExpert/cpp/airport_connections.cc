@@ -7,6 +7,9 @@ Each airport except the start without incoming flights requires 1 connection.
 Of the airports that cannot be visited from any root airport:
     Treat strongly connected components as single nodes to form a DAG.
     Determine how many roots exist of these "unvisitable" nodes.
+
+Note: This solution passed automated testing, but is not a complete solution.
+      Fix coming soon.
 */
 
 #include <string>
