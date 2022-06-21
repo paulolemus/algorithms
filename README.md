@@ -14,34 +14,34 @@ Run `cargo run`.
 ## General Info
 ### Unique Problems Solved By Difficulty
 * Easy: 43
-* Medium: 29
-* Hard: 10
+* Medium: 30
+* Hard: 11
 * Very Hard: 2
 
-Total: 84
+Total: 86
 
 ### Problems Solved By Language
-* C++: 72
+* C++: 74
 * Rust: 19
 * Python: 12
 
-Total: 103
+Total: 105
 
 
 ## AlgoExpert
 ### Unique Problems Solved By Difficulty
 * Easy: 21
-* Medium: 29
-* Hard: 10
+* Medium: 30
+* Hard: 11
 * Very Hard: 2
 
-Total: 62
+Total: 64
 
 ### Problems Solved By Language
-* C++: 61
+* C++: 63
 * Python: 12
 
-Total: 73
+Total: 75
 
 
 | Problem Name | Difficulty | C++ | Python |
@@ -79,6 +79,7 @@ Total: 73
 | Longest Peak | Medium | [.cc](./AlgoExpert/cpp/longest_peak.cc) |  |
 | Max Subset Sum No Adjacent | Medium | [.cc](./AlgoExpert/cpp/max_subset_sum_no_adjacent.cc) |  |
 | Merge Overlapping Intervals | Medium | [.cc](./AlgoExpert/cpp/merge_overlapping_intervals.cc) |  |
+| Min Height BST | Medium | [.cc](./AlgoExpert/cpp/min_height_BST.cc) |  |
 | Min Number Of Coins For Change | Medium | [.cc](./AlgoExpert/cpp/min_number_of_coins_for_change.cc) |  |
 | Minimum Characters For Words | Medium | [.cc](./AlgoExpert/cpp/minimum_characters_for_words.cc) |  |
 | Monotonic Array | Medium | [.cc](./AlgoExpert/cpp/monotonic_array.cc) |  |
@@ -101,6 +102,7 @@ Total: 73
 | Largest Range | Hard | [.cc](./AlgoExpert/cpp/largest_range.cc) |  |
 | Merge Linked Lists | Hard | [.cc](./AlgoExpert/cpp/merge_linked_lists.cc) |  |
 | Min Rewards | Hard | [.cc](./AlgoExpert/cpp/min_rewards.cc) |  |
+| Quick Sort | Hard | [.cc](./AlgoExpert/cpp/quick_sort.cc) |  |
 | Reverse Linked List | Hard | [.cc](./AlgoExpert/cpp/reverse_linked_list.cc) |  |
 | Search For Range | Hard | [.cc](./AlgoExpert/cpp/search_for_range.cc) |  |
 | Shift Linked List | Hard | [.cc](./AlgoExpert/cpp/shift_linked_list.cc) |  |
