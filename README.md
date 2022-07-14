@@ -14,34 +14,34 @@ Run `cargo run`.
 ## General Info
 ### Unique Problems Solved By Difficulty
 * Easy: 43
-* Medium: 30
+* Medium: 31
 * Hard: 11
 * Very Hard: 2
 
-Total: 86
+Total: 87
 
 ### Problems Solved By Language
-* C++: 74
+* C++: 75
 * Rust: 19
 * Python: 12
 
-Total: 105
+Total: 106
 
 
 ## AlgoExpert
 ### Unique Problems Solved By Difficulty
 * Easy: 21
-* Medium: 30
+* Medium: 31
 * Hard: 11
 * Very Hard: 2
 
-Total: 64
+Total: 65
 
 ### Problems Solved By Language
-* C++: 63
+* C++: 64
 * Python: 12
 
-Total: 75
+Total: 76
 
 
 | Problem Name | Difficulty | C++ | Python |
@@ -89,6 +89,7 @@ Total: 75
 | Number Of Ways To Traverse Graph | Medium | [.cc](./AlgoExpert/cpp/number_of_ways_to_traverse_graph.cc) | [.py](./AlgoExpert/python/number_of_ways_to_traverse_graph.py) |
 | Phone Number Mnemonics | Medium | [.cc](./AlgoExpert/cpp/phone_number_mnemonics.cc) |  |
 | River Sizes | Medium |  | [.py](./AlgoExpert/python/river_sizes.py) |
+| Search In Sorted Matrix | Medium | [.cc](./AlgoExpert/cpp/search_in_sorted_matrix.cc) |  |
 | Single Cycle Check | Medium | [.cc](./AlgoExpert/cpp/single_cycle_check.cc) |  |
 | Smallest Difference | Medium | [.cc](./AlgoExpert/cpp/smallest_difference.cc) |  |
 | Spiral Traverse | Medium | [.cc](./AlgoExpert/cpp/spiral_traverse.cc) |  |
