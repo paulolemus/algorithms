@@ -14,34 +14,34 @@ Run `cargo run`.
 ## General Info
 ### Unique Problems Solved By Difficulty
 * Easy: 47
-* Medium: 31
+* Medium: 39
 * Hard: 12
 * Very Hard: 2
 
-Total: 92
+Total: 100
 
 ### Problems Solved By Language
-* C++: 80
+* C++: 88
 * Rust: 19
 * Python: 13
 
-Total: 112
+Total: 120
 
 
 ## AlgoExpert
 ### Unique Problems Solved By Difficulty
 * Easy: 25
-* Medium: 31
+* Medium: 39
 * Hard: 12
 * Very Hard: 2
 
-Total: 70
+Total: 78
 
 ### Problems Solved By Language
-* C++: 69
+* C++: 77
 * Python: 13
 
-Total: 82
+Total: 90
 
 
 | Problem Name | Difficulty | C++ | Python |
@@ -71,37 +71,45 @@ Total: 82
 | Tournament Winner | Easy | [.cc](./AlgoExpert/cpp/tournament_winner.cc) |  |
 | Two Number Sum | Easy | [.cc](./AlgoExpert/cpp/two_number_sum.cc) | [.py](./AlgoExpert/python/two_number_sum.py) |
 | Validate Subsequence | Easy | [.cc](./AlgoExpert/cpp/validate_subsequence.cc) |  |
+| Array Of Products | Medium | [.cc](./AlgoExpert/cpp/array_of_products.cc) |  |
 | BST Traversal | Medium | [.cc](./AlgoExpert/cpp/BST_traversal.cc) |  |
 | Balanced Brackets | Medium | [.cc](./AlgoExpert/cpp/balanced_brackets.cc) |  |
 | Binary Tree Diameter | Medium | [.cc](./AlgoExpert/cpp/binary_tree_diameter.cc) |  |
+| Breadth First Search | Medium | [.cc](./AlgoExpert/cpp/breadth_first_search.cc) |  |
 | Find Kth Largest Value In Bst | Medium | [.cc](./AlgoExpert/cpp/find_kth_largest_value_in_bst.cc) |  |
 | First Duplicate Value | Medium | [.cc](./AlgoExpert/cpp/first_duplicate_value.cc) |  |
 | Group Anagrams | Medium | [.cc](./AlgoExpert/cpp/group_anagrams.cc) |  |
 | Height Balanced Binary Tree | Medium | [.cc](./AlgoExpert/cpp/height_balanced_binary_tree.cc) |  |
 | Invert Binary Tree | Medium | [.cc](./AlgoExpert/cpp/invert_binary_tree.cc) |  |
 | Kadanes Algorithm | Medium | [.cc](./AlgoExpert/cpp/kadanes_algorithm.cc) |  |
+| Longest Palindromic Substring | Medium | [.cc](./AlgoExpert/cpp/longest_palindromic_substring.cc) |  |
 | Longest Peak | Medium | [.cc](./AlgoExpert/cpp/longest_peak.cc) |  |
 | Max Subset Sum No Adjacent | Medium | [.cc](./AlgoExpert/cpp/max_subset_sum_no_adjacent.cc) |  |
 | Merge Overlapping Intervals | Medium | [.cc](./AlgoExpert/cpp/merge_overlapping_intervals.cc) |  |
 | Min Height BST | Medium | [.cc](./AlgoExpert/cpp/min_height_BST.cc) |  |
+| Min Max Stack Construction | Medium | [.cc](./AlgoExpert/cpp/min_max_stack_construction.cc) |  |
 | Min Number Of Coins For Change | Medium | [.cc](./AlgoExpert/cpp/min_number_of_coins_for_change.cc) |  |
 | Minimum Characters For Words | Medium | [.cc](./AlgoExpert/cpp/minimum_characters_for_words.cc) |  |
+| Minimum Passes Of Matrix | Medium | [.cc](./AlgoExpert/cpp/minimum_passes_of_matrix.cc) |  |
 | Monotonic Array | Medium | [.cc](./AlgoExpert/cpp/monotonic_array.cc) |  |
 | Move Element To End | Medium | [.cc](./AlgoExpert/cpp/move_element_to_end.cc) |  |
 | Next Greater Element | Medium | [.cc](./AlgoExpert/cpp/next_greater_element.cc) |  |
 | Number Of Ways To Make Change | Medium | [.cc](./AlgoExpert/cpp/number_of_ways_to_make_change.cc) |  |
 | Number Of Ways To Traverse Graph | Medium | [.cc](./AlgoExpert/cpp/number_of_ways_to_traverse_graph.cc) | [.py](./AlgoExpert/python/number_of_ways_to_traverse_graph.py) |
 | Phone Number Mnemonics | Medium | [.cc](./AlgoExpert/cpp/phone_number_mnemonics.cc) |  |
+| Remove Kth Node From End | Medium | [.cc](./AlgoExpert/cpp/remove_kth_node_from_end.cc) |  |
 | River Sizes | Medium |  | [.py](./AlgoExpert/python/river_sizes.py) |
 | Search In Sorted Matrix | Medium | [.cc](./AlgoExpert/cpp/search_in_sorted_matrix.cc) |  |
 | Single Cycle Check | Medium | [.cc](./AlgoExpert/cpp/single_cycle_check.cc) |  |
 | Smallest Difference | Medium | [.cc](./AlgoExpert/cpp/smallest_difference.cc) |  |
 | Spiral Traverse | Medium | [.cc](./AlgoExpert/cpp/spiral_traverse.cc) |  |
 | Staircase Traversal | Medium | [.cc](./AlgoExpert/cpp/staircase_traversal.cc) |  |
+| Sum Of Linked Lists | Medium | [.cc](./AlgoExpert/cpp/sum_of_linked_lists.cc) |  |
 | Sunset Views | Medium | [.cc](./AlgoExpert/cpp/sunset_views.cc) |  |
 | Task Assignment | Medium | [.cc](./AlgoExpert/cpp/task_assignment.cc) | [.py](./AlgoExpert/python/task_assignment.py) |
 | Three Number Sort | Medium | [.cc](./AlgoExpert/cpp/three_number_sort.cc) |  |
 | Validate Bst | Medium | [.cc](./AlgoExpert/cpp/validate_bst.cc) |  |
+| Youngest Common Ancestor | Medium | [.cc](./AlgoExpert/cpp/youngest_common_ancestor.cc) |  |
 | Continuous Median | Hard | [.cc](./AlgoExpert/cpp/continuous_median.cc) |  |
 | Generate Div Tags | Hard | [.cc](./AlgoExpert/cpp/generate_div_tags.cc) |  |
 | Largest Range | Hard | [.cc](./AlgoExpert/cpp/largest_range.cc) |  |
