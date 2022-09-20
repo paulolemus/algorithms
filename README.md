@@ -13,41 +13,42 @@ Run `cargo run`.
 
 ## General Info
 ### Unique Problems Solved By Difficulty
-* Easy: 43
+* Easy: 47
 * Medium: 31
-* Hard: 11
+* Hard: 12
 * Very Hard: 2
 
-Total: 87
+Total: 92
 
 ### Problems Solved By Language
-* C++: 75
+* C++: 80
 * Rust: 19
-* Python: 12
+* Python: 13
 
-Total: 106
+Total: 112
 
 
 ## AlgoExpert
 ### Unique Problems Solved By Difficulty
-* Easy: 21
+* Easy: 25
 * Medium: 31
-* Hard: 11
+* Hard: 12
 * Very Hard: 2
 
-Total: 65
+Total: 70
 
 ### Problems Solved By Language
-* C++: 64
-* Python: 12
+* C++: 69
+* Python: 13
 
-Total: 76
+Total: 82
 
 
 | Problem Name | Difficulty | C++ | Python |
 | --- | --- | --- | --- |
 | Binary Search | Easy | [.cc](./AlgoExpert/cpp/binary_search.cc) |  |
 | Branch Sums | Easy | [.cc](./AlgoExpert/cpp/branch_sums.cc) | [.py](./AlgoExpert/python/branch_sums.py) |
+| Bubble Sort | Easy | [.cc](./AlgoExpert/cpp/bubble_sort.cc) |  |
 | Caesar Cipher Encryptor | Easy | [.cc](./AlgoExpert/cpp/caesar_cipher_encryptor.cc) |  |
 | Class Photos | Easy | [.cc](./AlgoExpert/cpp/class_photos.cc) | [.py](./AlgoExpert/python/class_photos.py) |
 | Depth First Search | Easy | [.cc](./AlgoExpert/cpp/depth_first_search.cc) |  |
@@ -58,7 +59,10 @@ Total: 76
 | Insertion Sort | Easy | [.cc](./AlgoExpert/cpp/insertion_sort.cc) |  |
 | Minimum Waiting Time | Easy | [.cc](./AlgoExpert/cpp/minimum_waiting_time.cc) | [.py](./AlgoExpert/python/minimum_waiting_time.py) |
 | Node Depths | Easy | [.cc](./AlgoExpert/cpp/node_depths.cc) |  |
+| Non Constructible Change | Easy | [.cc](./AlgoExpert/cpp/non_constructible_change.cc) |  |
+| Nth Fibonacci | Easy | [.cc](./AlgoExpert/cpp/nth_fibonacci.cc) |  |
 | Palindrome Check | Easy | [.cc](./AlgoExpert/cpp/palindrome_check.cc) | [.py](./AlgoExpert/python/palindrome_check.py) |
+| Product Sum | Easy | [.cc](./AlgoExpert/cpp/product_sum.cc) | [.py](./AlgoExpert/python/product_sum.py) |
 | Remove Duplicates From Linked List | Easy | [.cc](./AlgoExpert/cpp/remove_duplicates_from_linked_list.cc) |  |
 | Run Length Encoding | Easy | [.cc](./AlgoExpert/cpp/run_length_encoding.cc) |  |
 | Selection Sort | Easy | [.cc](./AlgoExpert/cpp/selection_sort.cc) |  |
@@ -109,6 +113,7 @@ Total: 76
 | Shift Linked List | Hard | [.cc](./AlgoExpert/cpp/shift_linked_list.cc) |  |
 | Topological Sort | Hard | [.cc](./AlgoExpert/cpp/topological_sort.cc) |  |
 | Validate Three Nodes | Hard | [.cc](./AlgoExpert/cpp/validate_three_nodes.cc) |  |
+| Water Area | Hard | [.cc](./AlgoExpert/cpp/water_area.cc) |  |
 | Airport Connections | Very Hard | [.cc](./AlgoExpert/cpp/airport_connections.cc) |  |
 | Node Swap | Very Hard | [.cc](./AlgoExpert/cpp/node_swap.cc) | [.py](./AlgoExpert/python/node_swap.py) |
 
